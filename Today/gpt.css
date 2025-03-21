@@ -1,0 +1,153 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body and Background */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styles */
+h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.heading img {
+    max-width: 100%;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Paragraph and Text Styles */
+.paragraph {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.founder {
+    font-style: italic;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.brand h2 {
+    margin-top: 20px;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 16px;
+}
+
+th {
+    background-color: #f8f8f8;
+    color: #555;
+}
+
+td a {
+    color: #007bff;
+}
+
+td a:hover {
+    text-decoration: underline;
+}
+
+/* Table Responsive Design */
+@media (max-width: 768px) {
+    table, th, td {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
+
+/* Styling for Branding and Product Section */
+.brand {
+    margin-top: 30px;
+}
+
+.brand h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.brand table {
+    width: 100%;
+    border: none;
+    margin-top: 10px;
+}
+
+.brand th, .brand td {
+    text-align: center;
+}
+
+.brand a {
+    font-weight: bold;
+}
+
+.container h2 {
+    font-size: 28px;
+    color: #222;
+    margin-bottom: 20px;
+}
+
+/* Styling for Footer Section */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+img{
+    width: 250px;
+    height: 250px;
+}

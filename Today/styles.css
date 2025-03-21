@@ -1,0 +1,11 @@
+body{
+    background-color: whitesmoke;
+    font-size:  18px;
+    font-family:'Times New Roman';
+    font-weight: normal;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
